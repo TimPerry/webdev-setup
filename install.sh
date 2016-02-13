@@ -9,6 +9,13 @@ fi
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cp zshrc ~/.zshrc
 
+git clone git@github.com:sindresorhus/pure.git
+pushd pure
+rm -rf ~/.oh-my-zsh/themes/pure.zsh-theme
+cp pure.zsh ~/.oh-my-zsh/custom/pure.zsh-theme
+cp async.zsh ~/.oh-my-zsh/custom/async.zsh
+popd
+
 brew install caskroom/cask/brew-cask;
 brew tap Homebrew/bundle;
 brew bundle;
