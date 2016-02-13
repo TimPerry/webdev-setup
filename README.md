@@ -19,6 +19,7 @@ cd webdev-setup
 - firefox
 - 1password
 - atom
+- intellij-idea
 - caffeine
 - ccleaner
 - iterm2

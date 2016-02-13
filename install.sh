@@ -20,3 +20,5 @@ brew install caskroom/cask/brew-cask;
 brew tap Homebrew/bundle;
 brew bundle;
 vagrant plugin install vagrant-vbguest;
+
+echo "All done. Might I also suggest this little bit of setup: https://github.com/sindresorhus/pure#tips"
