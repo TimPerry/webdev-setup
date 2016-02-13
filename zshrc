@@ -2,7 +2,7 @@
 export ZSH=~/.oh-my-zsh
 
 #theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pure"
 
 # plugins
 plugins=(git vagrant sudo)
