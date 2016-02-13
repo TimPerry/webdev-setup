@@ -27,3 +27,4 @@ cd webdev-setup
 - screenhero
 - zsh
 - pure prompt (zshrc theme)
+- dropbox
