@@ -2,6 +2,7 @@ tap 'caskroom/cask'
 tap 'homebrew/versions'
 
 brew 'ansible'
+brew 'n'
 cask 'virtualbox'
 cask 'dockertoolbox'
 cask 'vagrant'
