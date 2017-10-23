@@ -5,13 +5,18 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="pure"
 
 # plugins
-plugins=(git vagrant sudo)
-
-# exports
-export PATH="/Users/perryt04/.rvm/gems/ruby-1.9.3-p547/bin:/Users/perryt04/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/perryt04/.rvm/rubies/ruby-1.9.3-p547/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/perryt04/.rvm/bin"
+plugins=(git vagrant sudo docker docker-compose wd)
 
 # imports
 source $ZSH/oh-my-zsh.sh
 
 # fixes problems with rake tasks: rake http[restart] would need to be rake "http[restart]" without this unset
 unsetopt nomatch
+
+# brew path
+export PATH="/usr/local/sbin:$PATH"
+
+# cmd aliases
+alias sendtorupamsbeautifulface='git push'
+alias dcu='docker-compose up'
+unalias dce
